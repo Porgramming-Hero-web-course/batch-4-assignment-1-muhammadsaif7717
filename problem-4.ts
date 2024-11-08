@@ -13,21 +13,10 @@
         return 0;
     }
 
-    // Sample Input 1:
-    const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
 
-    // Sample Output 1:
-    console.log(circleArea);
+    // const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
+    // console.log(circleArea);
 
-    // Sample Input 2:
-    const rectangleArea = calculateShapeArea({
-        shape: "rectangle",
-        width: 4,
-        height: 6,
-    });
-    
-    // Sample Output 2:
-    console.log(rectangleArea);
-
-    ///
+    // const rectangleArea = calculateShapeArea({ shape: "rectangle", width: 4, height: 6, });
+    // console.log(rectangleArea);
 }
