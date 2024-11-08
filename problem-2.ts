@@ -5,7 +5,11 @@
         return Array.from(new Set(arr));
     }
 
-    // console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
+    // Sample Input:
+    console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
+
+    // Sample Output:
+    [1, 2, 3, 4, 5]
 
     ///
 }

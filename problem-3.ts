@@ -7,7 +7,11 @@
         return matches ? matches.length : 0;
     }
 
-    // console.log(countWordOccurrences("I love typescript", "typescript"));
+    // Sample Input:
+    console.log(countWordOccurrences("I love typescript", "typescript"));
+
+    // Sample Output:
+    1;
 
     ///
 }

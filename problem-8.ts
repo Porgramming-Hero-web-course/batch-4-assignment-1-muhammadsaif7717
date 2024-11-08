@@ -1,24 +1,16 @@
 {
     /// Problem 8 ///
 
-    class Car {
-        make: string;
-        model: string;
-        year: number;
-    
-        constructor(make: string, model: string, year: number) {
-            this.make = make;
-            this.model = model;
-            this.year = year;
-        }
-    
-        getCarAge(currentYear: number = new Date().getFullYear()): number {
-            return currentYear - this.year;
-        }
+    function validateKeys<T extends object>(obj: T, keys: (keyof T)[]): boolean {
+        return keys.every(key => key in obj);
     }
     
-    // const car = new Car("Honda", "Civic", 2018);
-    // console.log(car.getCarAge()); 
+    // Sample Input:
+    const personObj = { name: "Alice", age: 25, email: "alice@example.com" };
+    console.log(validateKeys(personObj, ["name", "age"])); 
+    
+    // Output: true
+    
 
     ///
 }
